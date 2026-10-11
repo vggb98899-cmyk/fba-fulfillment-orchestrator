@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fba-fulfillment-orchestrator"
+version = "1.0.0"
+description = "Production-grade reference workflow for safe warehouse fulfillment automation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "vggb98899-cmyk", email = "vggb98899@gmail.com"}]
+dependencies = []
+
+[project.scripts]
+fba-orchestrator = "fba_orchestrator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

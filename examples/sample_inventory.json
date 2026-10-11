@@ -1,0 +1,9 @@
+{
+  "snapshot_id": "demo-snapshot-001",
+  "target": "demo-store",
+  "schema_version": 1,
+  "items": [
+    {"sku": "DEMO-SKU-A", "quantity": 60, "unit_weight_kg": 0.25},
+    {"sku": "DEMO-SKU-B", "quantity": 30, "unit_weight_kg": 0.40}
+  ]
+}
